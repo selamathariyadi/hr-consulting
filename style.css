@@ -64,7 +64,10 @@ p {
 
 .section-3 {
     margin-top: 150px;
-    height: 80%;
+}
+
+.section-consul {
+    margin-top: 150px;
 }
 
 .bg-color {
@@ -90,4 +93,43 @@ p {
 .card-text {
     color: white;
     font-size: 20px;
+}
+
+.footer {
+    background-color: #0D1C37;
+    margin: auto;
+    margin-top: 70px;
+    height: 300px;
+}
+
+.logo-footer {
+    margin-left: 20px;
+    margin-top: 50px;
+}
+
+.copyright {
+    background-color: #D9D9D9;
+    height: 72px;
+    overflow-y: hidden;
+}
+
+.copyright .kiri p {
+    color: black;
+    padding: 25px;
+    float: left;
+}
+
+.service-footer {
+    width: 100%;
+    list-style: none;
+}
+
+.service-footer li {
+    color: white;
+    font-size: 18px;
+}
+
+.copyright .kanan {
+    float: right;
+    padding: 25px;
 }
