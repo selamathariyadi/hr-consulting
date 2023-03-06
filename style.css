@@ -2,10 +2,92 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
 }
 
-.logo-text {
-    color: #46528A;
-    font-size: 20px;
+.btn-1 {
+    width: 143px;
+    border: 1px solid white;
+    background: #312ECB;
+    color: white;
+}
+
+.btn-2 {
+    width: 187px;
+    height: 40px;
+    text-align: center;
+    background: #312ECB;
+    color: white;
     margin: auto;
+    border-radius: 10px;
+}
+
+.section-1 {
+    margin-top: 70px;
+}
+
+p {
+    font-size: 18px;
+    color: #6B717C;
+    line-height: 30px;
+}
+
+.gambar-section1 {
+    width: 622px;
+    height: 300px;
+}
+
+.gambar-section2 {
+    width: 300x;
+    height: 500px;
+}
+
+.span {
+    width: 100px;
+    height: 30px;
+    font-size: 30px;
+    text-align: center;
+    display: inline;
+    margin-left: 20px;
+    color: black;
+}
+
+.text-p {
+    margin-top: 100px;
+}
+
+.kutipan {
+    font-size: 25px;
+    line-height: 60px;
+}
+
+.section-3 {
+    margin-top: 150px;
+    height: 80%;
+}
+
+.bg-color {
+    background: linear-gradient(190deg, rgba(13, 28, 55, 0.17) 0%, rgba(217, 217, 217, 0) 76.2%);
+}
+
+.text-h1 {
+    color: #0D1C37;
+    margin-top: 250px;
+    margin-left: 50px;
+}
+
+.card-image {
+    width: 60;
+    height: 60;
+    margin-top: 20px;
+}
+
+.bg-image {
+    background-color: #0D1C37;
+}
+
+.card-text {
+    color: white;
+    font-size: 20px;
 }
