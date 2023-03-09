@@ -4,6 +4,12 @@
     box-sizing: border-box;
     font-family: 'Inter', sans-serif;
     font-style: normal;
+    /* outline: 1px red solid; */
+}
+
+body,
+html {
+    overflow-x: hidden;
 }
 
 .btn-1 {
@@ -35,12 +41,21 @@ p {
 
 .gambar-section1 {
     width: 622px;
-    height: 300px;
+    height: auto;
+    background-size: cover;
+    position: relative;
 }
 
 .gambar-section2 {
     width: 300x;
     height: 500px;
+}
+
+h4,
+h2 {
+    font-weight: bold;
+    margin-top: 10px;
+    color: #0D1C37;
 }
 
 .span {
@@ -49,8 +64,8 @@ p {
     font-size: 30px;
     text-align: center;
     display: inline;
-    margin-left: 20px;
-    color: black;
+    margin-left: 10px;
+    color: #0D1C37;
 }
 
 .text-p {
@@ -71,7 +86,8 @@ p {
 }
 
 .bg-color {
-    background: linear-gradient(190deg, rgba(13, 28, 55, 0.17) 0%, rgba(217, 217, 217, 0) 76.2%);
+    background-image: url(image/vectorbackground.png);
+    background-size: cover;
 }
 
 .text-h1 {
@@ -99,7 +115,7 @@ p {
     background-color: #0D1C37;
     margin: auto;
     margin-top: 70px;
-    height: 300px;
+    height: auto;
 }
 
 .logo-footer {
@@ -109,13 +125,13 @@ p {
 
 .copyright {
     background-color: #D9D9D9;
-    height: 72px;
-    overflow-y: hidden;
+    margin: auto;
+    overflow: hidden;
 }
 
 .copyright .kiri p {
     color: black;
-    padding: 25px;
+    padding-top: 15px;
     float: left;
 }
 
@@ -131,5 +147,5 @@ p {
 
 .copyright .kanan {
     float: right;
-    padding: 25px;
+    padding-top: 15px;
 }
